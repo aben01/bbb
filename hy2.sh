@@ -118,7 +118,7 @@ print_connection_info() {
     echo "   🔑 密码: $AUTH_PASSWORD"
     echo ""
     echo "📱 节点链接（SNI=${SNI}, ALPN=${ALPN}, 跳过证书验证）:"
-    echo "hysteria2://${AUTH_PASSWORD}@${IP}:${SERVER_PORT}?sni=${SNI}&alpn=${ALPN}&insecure=1#Ben-美国ip节点1"
+    echo "hysteria2://${AUTH_PASSWORD}@${IP}:${SERVER_PORT}?sni=${SNI}&alpn=${ALPN}&insecure=1#Ben-美国ip节点2"
     echo ""
     echo "📄 客户端配置文件:"
     echo "server: ${IP}:${SERVER_PORT}"
@@ -146,6 +146,7 @@ main() {
 }
 
 main "$@"
+
 
 
 
